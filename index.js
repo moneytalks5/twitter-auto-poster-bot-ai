@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "Analyze the following $$trump$$ and generate ten (10) highly dramatic, all-caps social media posts (Truths/X Posts) using hyperbolic language, heavy punctuation (!!!), and powerful imagery. Each post must include 2-3 relevant, all-caps hashtags and 1-2 emotional emojis. The tone must be intensely triumphant, urgent, and focused on an 'us vs. them' narrative.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
